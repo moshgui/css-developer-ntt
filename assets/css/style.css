@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background: url(../imgs/banner.png), center,
+        linear-gradient(180deg, #000, #1d3557, #000);
+    border-bottom: 1px solid #33A8DB;
+}
+
+h1 {
+    margin-top: 1em;
+    font-weight: 900;
+    text-align: center;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+button {
+    cursor: pointer;
+    letter-spacing: 0.19em;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 1.18em 2.87em;
+    background: none;
+    border: 2px solid #33A8DB;
+    color: #33A8DB;
+}
+
+button:hover {
+    background-color: #33A8DB;
+    color: #000;    
+    transition: 0.2s;    
+}
+
+div.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.75em 0;
+}
+
+div.flex-items {
+    background-color: #252525;
+    color: #fff;
+    margin: 1.5em;
+    width: 33.43em;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 3.56em;
+    border: 1px #33A8DB solid;
+}
+
+div.flex-items:hover {
+   background-color: #fff; 
+   color: #33A8DB;
+   transition: 0.2s;
+}
+
+span.text-mode {
+    color: #33A8DB;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.19em;
+    font-weight: 700;
+}
+
+h2#challenges-title {
+    max-width: 746px;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    max-width: 49.5em;
+    font-size: 1em;
+    margin: 1.5em 0;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+p#p-header {
+    max-width: 510px;
+}
+
+h3 {
+    font-size: 2.4em;
+    font-weight: 900;
+    max-width: 244px;
+    color: #fff;
+    margin-left: 7.5em;
+    padding: 4em 0;
+    text-shadow: 4px 4px #33A8DB;
+}
+
+section {
+    background-color: #000000;
+    border-bottom: #33A8DB 1px solid;
+}
+
+section#woman-transform {
+    background: url(../imgs/woman-code.png) fixed;
+    background-size: cover;
+
+}
+
+section#modules {
+    padding-top: 4em;
+}
+
+img#challenges {
+    margin: 2em 0;
+}
+
+footer {
+    background: linear-gradient(180deg, #000, #1d3557);    
+}
