@@ -116,7 +116,6 @@ section {
 section#woman-transform {
     background: url(../imgs/woman-code.png) fixed;
     background-size: cover;
-
 }
 
 section#modules {
@@ -125,6 +124,7 @@ section#modules {
 
 img#challenges {
     margin: 2em 0;
+    width: 50%;   
 }
 
 footer {
